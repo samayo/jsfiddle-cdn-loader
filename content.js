@@ -21,7 +21,7 @@
         }
     }
 
-    var xmlhttp = window.XMLHttpRequest ? new XMLHttpRequest() : new ActiveXObject("Microsoft.XMLHTTP");
+    var xmlhttp =  new XMLHttpRequest(); 
 
 
     // on keyup send ajax request to get list of cdn
